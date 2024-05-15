@@ -1,16 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi";
+import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
+import { ShortBtn } from "../common/shot";
 
 function Home() {
 
-    
-
     return (
         <>
-            <div className="home">
+        
+            <div className="home" id="hom">
                 <div className="home-ctr">
                     <div className="head">
                         <h1>A</h1>
@@ -20,8 +22,9 @@ function Home() {
                             <h1>Hey-I'm Azaz</h1>
                             <p>A passionate Web Developer</p>
                             <div className="pro">
-                                <h1>JavaScript.</h1>
-                                {/* <h1>React/Node.JS </h1> */}
+                                <h1>
+                                    <TypeAnimation sequence={['JavaScript And', 1500, 'React.JS Developer', 1500]} wrapper="span" speed={20} repeat={Infinity} />
+                                </h1>
                             </div>
                         </div>
                     </div>
@@ -40,10 +43,10 @@ function Home() {
                                 </div>
                                 <div className="or-line"></div>
                                 <div className="internet">
-                                    <p><FaInstagram /></p>
-                                    <p><CiFacebook /></p>
-                                    <p><CiLinkedin /></p>
-                                    <p><TfiEmail /></p>
+                                    <Link to="https://www.instagram.com/ajaj_408/"><p title="Instagram"><FaInstagram /></p></Link>
+                                    <Link ><p title="Facebook"><CiFacebook /></p></Link>
+                                    <Link to="https://www.linkedin.com/in/ajaj-khan/"><p title="LinkedIn"><CiLinkedin /></p></Link>
+                                    <Link to="mailto: ajaj2842@gmail.com"><p title="Email"><TfiEmail /></p></Link>
                                 </div>
                             </div>
                             <div className="grey-line"></div>
@@ -51,6 +54,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+
         </>
     )
 };
