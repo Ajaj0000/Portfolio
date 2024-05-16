@@ -8,7 +8,7 @@ function About() {
             <div className="about" id="about">
                 <div className="about-crt">
                     <div className="service-1">
-                        <Serial serialNo="0 3" section="About" />
+                        <Serial serialNo="03" section="About" />
                     </div>
                     <div className="self-intro">
                         <h1>I'm a creative development individual eager to provide imaginative digital resolutions for your needs.</h1>

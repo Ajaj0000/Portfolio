@@ -23,7 +23,7 @@ function Home() {
                             <p>A passionate Web Developer</p>
                             <div className="pro">
                                 <h1>
-                                    <TypeAnimation sequence={['JavaScript And', 1500, 'React.JS Developer', 1500]} wrapper="span" speed={20} repeat={Infinity} />
+                                    <TypeAnimation sequence={['JavaScript', 1500, 'React.JS', 1500]} wrapper="span" speed={20} repeat={Infinity} />
                                 </h1>
                             </div>
                         </div>

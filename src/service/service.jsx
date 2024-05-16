@@ -1,20 +1,59 @@
 import React from "react";
 import { Serial } from "../common/serial";
-import react from "../image/a8435ccad899023a1e390189eb1ec312.png";
-import js from "../image/a8435ccad899023a1e390189eb1ec312.png";
-import node from "../image/a8435ccad899023a1e390189eb1ec312.png";
-import css from "../image/a8435ccad899023a1e390189eb1ec312.png";
+import img1 from "../image/PmAmPS5la32UxZ0qMv30zFXXXw.gif";
+import img2 from "../image/9Neqqlkh35UPRLFpem1gG2z8AM.png";
+import img3 from "../image/uJf8RN30Ub3A6nFDMfXY8T34Rs.png";
 
 function Service() {
+
+    // const card = [
+    //     {
+    //         id: "a",
+    //         name: "CodesWear",
+    //         img: js,
+    //         used: "Technology Used",
+    //         technology: "React.js, JavaScript, CSS, H.T.M.L",
+    //         type: "E-commerce",
+    //         detail: "Empower your shopping experience with our cutting-edge e-commerce platform, built on React.js for seamless browsing and lightning-fast transactions",
+    //     },
+    //     {
+    //         id: "b",
+    //         name: "QuickFly",
+    //         img: js,
+    //         used: "Technology Used",
+    //         technology: "React.js, JavaScript, CSS, H.T.M.L",
+    //         type: "Travel and Tourism",
+    //         detail: "Embark on a digital journey with our React.js-powered Travel and Tourism platform, where exploration knows no bounds",
+    //     },
+    //     {
+    //         id: "c",
+    //         name: "HexaShop",
+    //         img: js,
+    //         used: "Technology Used",
+    //         technology: "React.js, JavaScript, CSS, H.T.M.L",
+    //         type: "E-commerce",
+    //         detail: "Discover a visually captivating e-commerce journey, meticulously designed on React.js, with functionality that's just around the corner",
+    //     },
+    //     {
+    //         id: "d",
+    //         name: "CodesWear",
+    //         img: js,
+    //         used: "Technology Used",
+    //         technology: "React.js, JavaScript, CSS, H.T.M.L",
+    //         type: "E-commerce",
+    //         detail: "Empower your shopping experience with our cutting-edge e-commerce platform, built on React.js for seamless browsing and lightning-fast transactions",
+    //     },
+
+    // ]
 
     return (
         <>
             <div className="main-ser" id="pro">
                 <div className="servicess">
                     <div className="service-1">
-                        <Serial serialNo="0 1" section="Services" />
+                        <Serial serialNo="0 1" section="Project" />
                     </div>
-                    <div className="service-skills">
+                    {/* <div className="service-skills">
                         <div className="bx a">
                             <div className="bx-img">
                                 <img src={js} alt="img" />
@@ -42,6 +81,44 @@ function Service() {
                             </div>
                             <h2>CSS</h2>
                             <p>Style transforms code into visual poetry, where every line shapes an aesthetic masterpiece.</p>
+                        </div>
+                    </div> */}
+                    {/* kjdfjsdlndfh;ncrcunkrncufhfnuhfuierf;ndkjn */}
+                    <div className="service-skills">
+                        <div className="projects1">
+                            <div className="pro-top">
+                                <img src={img1} alt="img" />
+                            </div>
+                            <div className="pro-detail">
+                                <h1>QuickFly</h1>
+                                <span>Travel and Tourism</span>
+                            </div>
+                        </div>
+                        <div className="projects">
+                            <div className="pro-lite">
+                                <div className="proj">
+                                        <div className="pro-img">
+                                            <img src={img2} alt="img2" />
+                                        </div>
+                                        <div className="pro-left-text">
+                                            <h1>CodesWear</h1>
+                                            <span>E-Commerce</span>
+                                        </div>
+                                </div>
+                                <div className="proj">
+                                    <div className="pro-in">
+                                        <div className="pro-img">
+                                            <img src={img3} alt="img" />
+                                        </div>
+                                        <div className="pro-left-text">
+                                            <h1>HexaShop</h1>
+                                            <span>E-Commerce</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
