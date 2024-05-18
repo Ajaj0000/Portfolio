@@ -85,18 +85,21 @@ function Service() {
                     </div> */}
                     {/* kjdfjsdlndfh;ncrcunkrncufhfnuhfuierf;ndkjn */}
                     <div className="service-skills">
-                        <div className="projects1">
-                            <div className="pro-top">
-                                <img src={img1} alt="img" />
+                        <a href="https://quickfly.netlify.app" target="_blank">
+                            <div className="projects1">
+                                <div className="pro-top">
+                                    <img src={img1} alt="img" />
+                                </div>
+                                <div className="pro-detail">
+                                    <h1>QuickFly</h1>
+                                    <span>Travel and Tourism</span>
+                                </div>
                             </div>
-                            <div className="pro-detail">
-                                <h1>QuickFly</h1>
-                                <span>Travel and Tourism</span>
-                            </div>
-                        </div>
+                        </a>
                         <div className="projects">
                             <div className="pro-lite">
                                 <div className="proj">
+                                    <a href="https://ajajcodes.netlify.app/" target="_blank">
                                         <div className="pro-img">
                                             <img src={img2} alt="img2" />
                                         </div>
@@ -104,22 +107,34 @@ function Service() {
                                             <h1>CodesWear</h1>
                                             <span>E-Commerce</span>
                                         </div>
+                                    </a>
                                 </div>
                                 <div className="proj">
-                                    <div className="pro-in">
-                                        <div className="pro-img">
-                                            <img src={img3} alt="img" />
+                                    <a href="https://hexashop11.netlify.app/">
+                                        <div className="pro-in">
+                                            <div className="pro-img">
+                                                <img src={img3} alt="img" />
+                                            </div>
+                                            <div className="pro-left-text">
+                                                <h1>HexaShop</h1>
+                                                <span>E-Commerce</span>
+                                            </div>
                                         </div>
-                                        <div className="pro-left-text">
-                                            <h1>HexaShop</h1>
-                                            <span>E-Commerce</span>
-                                        </div>
-                                    </div>
+                                    </a>
                                 </div>
-
-
                             </div>
                         </div>
+                        <a href="https://quickfly.netlify.app" target="_blank">
+                            <div className="projects1">
+                                <div className="pro-top">
+                                    <img src={img1} alt="img" />
+                                </div>
+                                <div className="pro-detail">
+                                    <h1>24 CARROTS</h1>
+                                    <span>Catering & Event</span>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
