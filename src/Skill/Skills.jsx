@@ -7,12 +7,12 @@ function Skills() {
         {
             id: "1",
             name: 'REACT.JS',
-            progress: "55%",
+            progress: "65%",
         },
         {
             id: "2",
             name: "JAVASCRIPT",
-            progress: "70%"
+            progress: "35%"
         },
         {
             id: "3",

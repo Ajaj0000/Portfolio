@@ -124,7 +124,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <a href="https://quickfly.netlify.app" target="_blank">
+                        <a href="https://24carate.netlify.app" target="_blank">
                             <div className="projects1">
                                 <div className="pro-top">
                                     <img src={img1} alt="img" />
