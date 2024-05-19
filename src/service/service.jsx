@@ -85,7 +85,7 @@ function Service() {
                     </div> */}
                     {/* kjdfjsdlndfh;ncrcunkrncufhfnuhfuierf;ndkjn */}
                     <div className="service-skills">
-                        <a href="https://quickfly.netlify.app" target="_blank">
+                        <a href="https://quickfly.netlify.app">
                             <div className="projects1">
                                 <div className="pro-top">
                                     <img src={img1} alt="img" />
@@ -99,7 +99,7 @@ function Service() {
                         <div className="projects">
                             <div className="pro-lite">
                                 <div className="proj">
-                                    <a href="https://ajajcodes.netlify.app/" target="_blank">
+                                    <a href="https://ajajcodes.netlify.app/">
                                         <div className="pro-img">
                                             <img src={img2} alt="img2" />
                                         </div>
@@ -124,7 +124,7 @@ function Service() {
                                 </div>
                             </div>
                         </div>
-                        <a href="https://24carate.netlify.app" target="_blank">
+                        <a href="https://24carate.netlify.app">
                             <div className="projects1">
                                 <div className="pro-top">
                                     <img src={img1} alt="img" />
