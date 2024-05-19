@@ -4,7 +4,6 @@ import { GrProjects } from "react-icons/gr";
 import { RiMenu2Line } from "react-icons/ri";
 import { IoPerson } from "react-icons/io5";
 import { RiChat3Line } from "react-icons/ri";
-import { Link } from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function ShortBtn(props) {

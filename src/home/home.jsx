@@ -5,7 +5,6 @@ import { CiLinkedin } from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi";
 import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
-import { ShortBtn } from "../common/shot";
 
 function Home() {
 
